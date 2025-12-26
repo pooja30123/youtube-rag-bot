@@ -5,6 +5,14 @@ Ask questions about any YouTube video and get answers based on its content!
 
 ---
 
+## 🎬 Demo Video
+
+[![YouTube RAG Bot Demo](https://img.youtube.com/vi/Ml_zZpEcHI0/0.jpg)](https://youtu.be/Ml_zZpEcHI0)
+
+Watch the demo: [https://youtu.be/Ml_zZpEcHI0](https://youtu.be/Ml_zZpEcHI0)
+
+---
+
 ## 🚀 Features
 
 - **Chat with YouTube Videos:** Ask questions and get answers based on the video’s transcript and content.
