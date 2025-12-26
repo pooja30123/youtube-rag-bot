@@ -7,9 +7,9 @@ Ask questions about any YouTube video and get answers based on its content!
 
 ## 🎬 Demo Video
 
-[![YouTube RAG Bot Demo](https://img.youtube.com/vi/Ml_zZpEcHI0/0.jpg)](https://youtu.be/Ml_zZpEcHI0)
+[![YouTube RAG Bot Demo](https://img.youtube.com/vi/bMKEnw03iV8/0.jpg)](https://www.youtube.com/watch?v=bMKEnw03iV8)
 
-Watch the demo: [https://youtu.be/Ml_zZpEcHI0](https://youtu.be/Ml_zZpEcHI0)
+Watch the demo: [https://www.youtube.com/watch?v=bMKEnw03iV8](https://www.youtube.com/watch?v=bMKEnw03iV8)
 
 ---
 
