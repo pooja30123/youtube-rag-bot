@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube AI Chatbot</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <div class="container">
+    <h3>YouTube AI Chatbot</h3>
+    
+    <div class="status-bar">
+      <span id="status">Ready</span>
+    </div>
+    
+    <div class="input-group">
+      <label>Video URL or Text:</label>
+      <textarea id="videoUrl" placeholder="Paste YouTube URL or any text containing YouTube link..."></textarea>
+      <div style="display: flex; align-items: center; gap: 10px; margin-top: 8px;">
+        <label style="font-size: 12px; margin: 0;">
+          <input type="checkbox" id="forceReprocess"> Force Reprocess
+        </label>
+      </div>
+      <button id="processBtn">Process Video</button>
+      <button id="autoDetectBtn">Auto-Detect Current Video</button>
+    </div>
+    
+    <div class="input-group">
+      <label>Ask Question:</label>
+      <textarea id="question" placeholder="What is this video about?"></textarea>
+      <button id="chatBtn">Ask AI</button>
+    </div>
+    
+    <div class="response-section">
+      <label>AI Response:</label>
+      <div id="response"></div>
+    </div>
+    
+    <div class="controls">
+      <button id="clearBtn" class="secondary">Clear Memory</button>
+      <button id="statusBtn" class="secondary">Show Status</button>
+    </div>
+  </div>
+  
+  <div class="input-group">
+    <label>API Endpoint:</label>
+    <input id="apiUrl" type="text" value="http://localhost:8000" />
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

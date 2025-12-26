@@ -1,0 +1,156 @@
+.container {
+  width: 400px;
+  padding: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 10px;
+  color: white;
+}
+
+h3 {
+  margin: 0 0 15px 0;
+  color: white;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.status-bar {
+  background: rgba(255,255,255,0.2);
+  padding: 8px 12px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.input-group {
+  margin-bottom: 15px;
+  background: rgba(255,255,255,0.1);
+  padding: 15px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  resize: vertical;
+  font-family: inherit;
+  box-sizing: border-box;
+  background: rgba(255,255,255,0.9);
+  color: #333;
+}
+
+#videoUrl {
+  height: 60px;
+}
+
+#question {
+  height: 70px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(45deg, #4CAF50, #45a049);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 8px;
+  transition: all 0.3s ease;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+button:disabled {
+  background: rgba(255,255,255,0.3);
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+button.secondary {
+  background: linear-gradient(45deg, #ff6b6b, #ee5a52);
+  font-size: 12px;
+  padding: 8px;
+  margin: 5px;
+  width: calc(50% - 10px);
+  display: inline-block;
+}
+
+.controls {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.response-section {
+  margin-top: 20px;
+  background: rgba(255,255,255,0.1);
+  padding: 15px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+#response {
+  min-height: 100px;
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.95);
+  color: #333;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#response.success {
+  background: rgba(255,255,255,0.95);
+  border: 2px solid #4CAF50;
+  color: #2e7d32;
+}
+
+#response.error {
+  background: rgba(255,255,255,0.95);
+  border: 2px solid #f44336;
+  color: #c62828;
+}
+
+/* Scrollbar styling */
+#response::-webkit-scrollbar {
+  width: 8px;
+}
+
+#response::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+#response::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.3);
+  border-radius: 4px;
+}
+
+#response::-webkit-scrollbar-thumb:hover {
+  background: rgba(0,0,0,0.5);
+}

@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+youtube-transcript-api
+langchain
+langchain-text-splitters
+langchain-huggingface
+langchain-community
+langchain-core
+langchain-google-genai
+langchain-chroma
+chromadb
+sentence-transformers
+python-multipart
+python-dotenv
+yt-dlp
+requests
+pytest

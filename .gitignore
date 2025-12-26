@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+youtube-bot/
+
+# Data outputs
+data/vector_stores/
+data/cookies/
+
+# Demo files
+demo/
+
+# OS/IDE files
+.DS_Store
+.vscode/
+
+# Build artifacts
+*.sqlite3
+*.log
+
+# Node/extension build
+extension/node_modules/
+
+# Environment files
+.env
+
+# Test cache
+.pytest_cache/
+
+# GitHub workflows
+.github/
