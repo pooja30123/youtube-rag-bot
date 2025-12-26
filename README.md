@@ -104,7 +104,7 @@ curl -H "x-api-key: your_api_key_here" -X POST http://localhost:8000/process \
 
 ## 👩‍💻 Author
 
-[Your Name]
+Pooja Verma
 
 ---
 
