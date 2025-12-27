@@ -36,6 +36,20 @@ Watch the demo: [https://www.youtube.com/watch?v=bMKEnw03iV8](https://www.youtub
 
 ---
 
+## 🏗️ System Architecture
+
+![System Architecture](docs/architecture_diagram.png)
+
+**Data Flow:**
+1. User interacts with YouTube videos through the browser extension
+2. Extension sends video processing requests to the FastAPI backend
+3. Backend extracts transcripts and creates embeddings using RAG techniques
+4. User asks questions which are processed through similarity search
+5. Gemini AI generates contextual responses based on relevant video content
+6. Responses are displayed back to the user through the extension interface
+
+---
+
 ## ⚙️ Getting Started
 
 1. **Get a Gemini API Key:**  
